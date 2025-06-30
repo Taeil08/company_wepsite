@@ -46,7 +46,7 @@ const Forum = () => {
   ];
 
   return (
-    <div className="bg-white py-0">
+    <div className="bg-white ">
       <div className="container mx-auto px-4 py-28 lg:py-0 xl:py-0 max-w-6xl">
         <div className="text-center mb-6">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900">
@@ -78,7 +78,7 @@ const Forum = () => {
         </div>
 
         <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-          {dummyPosts.lenght === 0 ? (
+          {dummyPosts.length === 0 ? (
             <div className="p-6 text-center text-gray-500">
               최근 게시물이 없습니다
             </div>
